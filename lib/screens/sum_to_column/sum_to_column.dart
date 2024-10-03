@@ -34,7 +34,7 @@ class SumToColumnState extends State<SumToColumn> {
                 return Column(children: [
                   Expanded(
                     child: ListView.builder(
-                      /* количество итерации */
+                      /* количество итерации */1
                       itemCount: box.length + 1,
                       itemBuilder: (BuildContext context, int index) {
                         return ColumnSum(counter: index);
